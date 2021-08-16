@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main()
+{
+    int choice=0;
+   
+    printf("enter your choice between 1-5: \n");
+    scanf("%d",&choice);
+    
+    switch(choice)
+    {
+        case 1:
+        printf("you chosse pizza \n");
+        printf("price:239");
+        break;
+        
+         case 2:
+        printf("you chosse burger \n");
+        printf("price:129");
+        break;
+        
+         case 3:
+        printf("you chosse pasta \n");
+        printf("price:179");
+        break;
+        
+         case 4:
+        printf("you chosse french fries \n");
+        printf("price:99");
+        break;
+        
+         case 5:
+        printf("you chosse sandwich \n");
+        printf("price:149");
+        break;
+        
+        default:
+        printf("you entered wrong choice");
+        break;
+    }
+    return 0;
+}
+        
+    
